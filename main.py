@@ -8,6 +8,8 @@ import time
 
 if Path(".env").is_file():
     load_dotenv()
+else:
+    raise Exception(".env file does not exist")
 
 GOOGLE_KEY_PATH = "gcloud_key_tzanakis-bigquery.json"
 MYSQL_TABLE = "reservations_bookings"
