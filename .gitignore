@@ -1,0 +1,5 @@
+*.ipynb
+*.ipynb_checkpoints
+*.env
+gcloud_key_tzanakis-bigquery.json
+.idea
